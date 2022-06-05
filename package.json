@@ -1,0 +1,50 @@
+{
+	"name": "P14-WEALTHHEALTH",
+	"private": true,
+	"version": "0.0.1",
+	"description": "OpenClassRoomsP14 - Faites passer une librairie jQuery vers React",
+	"author": "Rémi PHILIPPOT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RemiPHILIPPOT/RemiPHILIPPOT_14_26032021.git"
+	},
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build --base=http://127.0.0.1:5500/dist/ --sourcemap=true",
+		"preview": "vite preview"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"dependencies": {
+		"@mui/icons-material": "^5.4.4",
+		"@mui/lab": "^5.0.0-alpha.72",
+		"@mui/material": "^5.4.4",
+		"@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
+		"@mui/styled-engine-sc": "^5.4.2",
+		"@reduxjs/toolkit": "^1.8.0",
+		"date-fns": "^2.28.0",
+		"dialog_popup": "^0.1.6",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-redux": "^7.2.6",
+		"redux-persist": "^6.0.0",
+		"styled-components": "^5.3.3"
+	},
+	"resolutions": {
+		"@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react": "^1.0.7",
+		"eslint": "^8.10.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-react": "^7.29.3",
+		"prettier": "^2.5.1",
+		"vite": "^2.8.0"
+	}
+}
