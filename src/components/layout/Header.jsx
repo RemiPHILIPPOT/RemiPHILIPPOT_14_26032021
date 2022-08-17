@@ -11,10 +11,6 @@ export default function Header() {
 const HeaderBloc = styled("div")`
 	display: flex;
 	align-items: center;
-
-	img {
-		width: 150px;
-	}
 `;
 
 const AppTitle = styled("h1")`

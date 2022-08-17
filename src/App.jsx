@@ -5,10 +5,10 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 const theme = createTheme({
 	palette: {
 		primary: {
-			main: "#5f6a25",
+			main: "#748624",
 		},
 	},
-});
+}); 
 
 export default function App() {
 	return (
@@ -21,7 +21,7 @@ export default function App() {
 }
 
 const BaseLayout = styled("div")`
-	height: 100vh;
+	height: 100%;
 	background-color: #789f468f;
-	padding-top: 40px;
+	padding-top: 15px;
 `;
